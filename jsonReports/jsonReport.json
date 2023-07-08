@@ -1,0 +1,124 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\aymen\\Documents\\Projects\\playwright\\playwright project\\playwright.config.ts",
+    "rootDir": "C:/Users/aymen/Documents/Projects/playwright/playwright project",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "totalTime": 62070.70300000906
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/aymen/Documents/Projects/playwright/playwright project/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chrome:latest:Windows 10@lambdatest",
+        "name": "chrome:latest:Windows 10@lambdatest",
+        "testDir": "C:/Users/aymen/Documents/Projects/playwright/playwright project",
+        "testIgnore": [],
+        "testMatch": [
+          "pomtest/addToCartUsingFixture.test.ts"
+        ],
+        "timeout": 300000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.35.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "pomtest\\addToCartUsingFixture.test.ts",
+      "file": "pomtest/addToCartUsingFixture.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Suite page object test ",
+          "file": "pomtest/addToCartUsingFixture.test.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Add to cart test_03",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome:latest:Windows 10@lambdatest",
+                  "projectName": "chrome:latest:Windows 10@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 53378,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-07-08T09:16:00.441Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\aymen\\Documents\\Projects\\playwright\\playwright project\\test-results\\pomtest-addToCartUsingFixture-Suite-page-object-test-Add-to-cart-test-03-chrome-latest-Windows-10-lambdatest\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\aymen\\Documents\\Projects\\playwright\\playwright project\\test-results\\pomtest-addToCartUsingFixture-Suite-page-object-test-Add-to-cart-test-03-chrome-latest-Windows-10-lambdatest\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "92fe7589f3cd844569b7-a714c4c0f23abdf07786",
+              "file": "pomtest/addToCartUsingFixture.test.ts",
+              "line": 38,
+              "column": 6
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
